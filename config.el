@@ -5,6 +5,7 @@
 
 ;; Default project folder
 (setq projectile-project-search-path '("~/projects/"))
+(setq treemacs-git-mode 'simple)
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
