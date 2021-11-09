@@ -4,7 +4,9 @@
 ;; sync' after modifying this file!
 
 ;; Default project folder
-(setq projectile-project-search-path '("~/projects/"))
+(setq projectile-project-search-path '("~/projects/" "~/projects/riskxchange/" "~/projects/schism/" "~/projects/learning" "~/projects/scryer"))
+
+;; Git highlighting in Treemacs
 (setq treemacs-git-mode 'simple)
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
@@ -24,9 +26,9 @@
 ;; font string. You generally only need these two:
 ;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
-(setq doom-font (font-spec :family "JetBrainsMono" :size 14 :weight 'light)
-      doom-variable-pitch-font (font-spec :family "NotoSerif" :size 13)
-      ivy-posframe-font (font-spec :family "JetBrainsMono" :size 15))
+(setq doom-font (font-spec :family "Inconsolata" :size 18 :weight 'light)
+      doom-variable-pitch-font (font-spec :family "Roboto" :size 16)
+      ivy-posframe-font (font-spec :family "JetBrainsMono" :size 19))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
